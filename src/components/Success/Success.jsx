@@ -10,7 +10,7 @@ const Success = (props) => {
         A confirmation email has been sent to <span className="font-bold">{props.email}</span>.
         Please open it and click the button inside to confirm your subscription
       </p>
-      <button className="mt-40 align-bottom bg-[#292A43] text-slate-50 p-4 rounded-lg cursor-pointer font-bold w-full lg:mt-14 lg:mb-5" onClick={() => props.setSuccess(!props.success)}>
+      <button className="mt-40 align-bottom bg-[#292A43] text-slate-50 p-4 rounded-lg cursor-pointer font-bold w-full lg:mt-14 lg:mb-5 hover:bg-orange hover:shadow-lg hover:shadow-orange" onClick={() => props.setSuccess(!props.success)}>
         Dismiss message
       </button>
     </div>

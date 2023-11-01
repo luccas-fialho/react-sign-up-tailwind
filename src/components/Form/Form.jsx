@@ -68,7 +68,7 @@ const Form = (props) => {
           )}
 
           <button
-            className="mt-6 bg-[#292A43] text-slate-50 p-4 rounded-lg cursor-pointer font-bold"
+            className="mt-6 bg-[#292A43] text-slate-50 p-4 rounded-lg cursor-pointer font-bold hover:bg-orange hover:shadow-lg hover:shadow-orange"
             onClick={(event) => handleClick(event)}
           >
             Subscribe to monthly newsletter
